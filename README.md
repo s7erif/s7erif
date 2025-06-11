@@ -1,3 +1,4 @@
+
 <h1 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=26&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Sherif+Osman;Cybersecurity+Enthusiast;Unlocking+The+Matrix" alt="Typing SVG" />
 </h1>
@@ -65,10 +66,30 @@ sherif_osman@cyberlab
 # 🎯 Goals for 2025:
 - Obtain **CompTIA Security+**
 - Complete **OSCP**
---
-🛠️ Languages & Tools
-<p align="center"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/c.svg" width="40" height="40" style="fill:#A8B9CC; margin:5px;"/> <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/cplusplus.svg" width="40" style="fill:#00599C; margin:5px;"/> <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/csharp.svg" width="40" style="fill:#239120; margin:5px;"/> <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/python.svg" width="40" style="fill:#3776AB; margin:5px;"/> <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/linux.svg" width="40" style="fill:#000000; margin:5px;"/> <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/git.svg" width="40" style="fill:#F05032; margin:5px;"/> <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/wireshark.svg" width="40" style="fill:#007ACC; margin:5px;"/> </p>
+```
 
---
-📊 GitHub Stats
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=s7erif&show_icons=true&theme=tokyonight" alt="GitHub Stats"/> <br/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=s7erif&layout=compact&theme=tokyonight" alt="Top Languages"/> <br/> <img src="https://github-readme-streak-stats.herokuapp.com/?user=s7erif&theme=tokyonight" alt="GitHub Streak"/> </p> ```
+---
+
+## 🛠️ Languages & Tools
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/c.svg" width="40" height="40" style="fill:#A8B9CC; margin:5px;"/>
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/cplusplus.svg" width="40" style="fill:#00599C; margin:5px;"/>
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/csharp.svg" width="40" style="fill:#239120; margin:5px;"/>
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/python.svg" width="40" style="fill:#3776AB; margin:5px;"/>
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/linux.svg" width="40" style="fill:#000000; margin:5px;"/>
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/git.svg" width="40" style="fill:#F05032; margin:5px;"/>
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/wireshark.svg" width="40" style="fill:#007ACC; margin:5px;"/>
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=s7erif&show_icons=true&theme=tokyonight" alt="GitHub Stats"/>
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=s7erif&layout=compact&theme=tokyonight" alt="Top Languages"/>
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=s7erif&theme=tokyonight" alt="GitHub Streak"/>
+</p>
