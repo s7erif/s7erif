@@ -32,15 +32,17 @@
 </p>
 
 ---
-## 🧠 Hack the World
+
+## 💻 Hack the World
 
 <p align="center">
-  <img src="https://media.tenor.com/qJ5evVs-_uUAAAAC/hacker-hack.gif" width="400" alt="Hacker GIF"/>
+  <img src="https://media.tenor.com/2uyENRmiUt0AAAAC/coding.gif" width="400" alt="Hacker Coding GIF"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=FF0099&center=true&vCenter=true&width=600&lines=Think+like+a+Hacker...;Defend+like+a+Security+Engineer.;Cyber​​​​security+is+an+art+%F0%9F%94%90" alt="Typing Hack"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=00FF00&center=true&vCenter=true&width=600&lines=Think+like+a+Hacker...;Break+Rules%2C+Build+Defenses.;Cybersecurity+is+my+Battlefield+%F0%9F%94%8A" alt="Hacker Typing Green"/>
 </p>
+
 
 ---
 
