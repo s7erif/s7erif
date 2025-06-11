@@ -32,7 +32,6 @@
 </p>
 
 ---
-
 ## 🧠 Hack the World
 
 <p align="center">
