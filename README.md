@@ -28,12 +28,6 @@
 - 👨‍💻 All of my projects are available at:  
   🔗 [https://github.com/s7erif](https://github.com/s7erif)
 
-- 📄 Know about my experiences:  
-  📃 [My Resume](#) *(ضع الرابط هنا)*
-
-- 📝 I write articles on:  
-  ✍️ [My Blog](#) *(ضع رابط البلوج لو موجود)*
-
 - ⚡ Fun fact:  
   ⚽️ I love Barcelona more than Real Life!
 
