@@ -14,7 +14,7 @@
 ## 🚀 About Me
 
 - 🎓 Computer Science student @ **Assiut National University**  
-- 🧰 Building a **Task Manager** in C#  
+- 🧰 Building a Some Things Like **Task Manager** in C#  
 - 🌱 Learning `CCNA`, Malware Analysis & Reverse Engineering  
 - 💬 Ask me about Linux, Git, C#, C++, Cybersecurity  
 - 📫 Reach me: **q.os104134@gmail.com**
