@@ -21,16 +21,16 @@
 
 ---
 
-## 🌐 Connect with me
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://x.com/s7erif7?s=09" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="https://x.com/s7erif7?s=09" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/sherif-osman-32646424b/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/sherif-osman-32646424b/" height="30" width="40" /></a>
-<a href="https://fb.com/https://www.facebook.com/shryf.thman.462491/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/shryf.thman.462491/" height="30" width="40" /></a>
-<a href="https://instagram.com/s7erif_osman.30.11" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="s7erif_osman.30.11" height="30" width="40" /></a>
-</p>
-
+<h2 align="center"> 
+  🤝 Connect With Me
+  <br/>
+  <br/>
+  
+[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" alt="X/Twitter" height="40"/>](https://x.com/s7erif7?s=09)&nbsp;&nbsp;&nbsp;
+  [<img src='https://github.com/ash356/ash356/blob/main/images/linkedin.svg' alt='linkedin' height='40'>](https://linkedin.com/in/https://www.linkedin.com/in/sherif-osman-32646424b/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  [<img src='https://github.com/ash356/ash356/blob/main/images/facebook.svg' alt='facebook' height='40'>](https://fb.com/https://www.facebook.com/shryf.thman.462491/) &nbsp;&nbsp;&nbsp;
+  [<img src='https://github.com/ash356/ash356/blob/main/images/instagram.svg' alt='instagram' height='40'>](https://instagram.com/s7erif_osman.30.11) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</h2>
 ---
 
 ## 💻 Hack the World
