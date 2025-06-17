@@ -22,7 +22,7 @@
 ---
 
 <h2 align="center"> 
-  🤝 Connect With Me
+   Connect With Me
   <br/>
   <br/>
   
