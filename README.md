@@ -28,7 +28,7 @@
   
 [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" alt="X/Twitter" height="40"/>](https://x.com/s7erif7?s=09)&nbsp;&nbsp;&nbsp;
   [<img src='https://github.com/ash356/ash356/blob/main/images/linkedin.svg' alt='linkedin' height='40'>](https://linkedin.com/in/https://www.linkedin.com/in/sherif-osman-32646424b/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-  [<img src='https://github.com/ash356/ash356/blob/main/images/facebook.svg' alt='facebook' height='40'>](https://fb.com/https://www.facebook.com/shryf.thman.462491/) &nbsp;&nbsp;&nbsp;
+  [<img src='https://github.com/ash356/ash356/blob/main/images/facebook.svg' alt='facebook' height='40'>](www.facebook.com/shryf.thman.462491/) &nbsp;&nbsp;&nbsp;
   [<img src='https://github.com/ash356/ash356/blob/main/images/instagram.svg' alt='instagram' height='40'>](https://instagram.com/s7erif_osman.30.11) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </h2>
 
