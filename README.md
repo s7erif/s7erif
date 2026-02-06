@@ -4,7 +4,8 @@
 </h1>
 
 <h3 align="center">🚀 Aspiring Security Analyst | Always Hacking & Learning</h3>
-
+<h4 align="center"> 
+<img src="https://tryhackme-badges.s3.amazonaws.com/SherifOsman.png" alt="Your Image Badge" /> </h4>
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=s7erif&label=👁️+Profile+Views&color=0e75b6&style=flat" alt="s7erif profile views" />
 </p>
@@ -109,13 +110,3 @@ sherif_osman@cyberlab
 
 
 ---
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=s7erif&show_icons=true&theme=tokyonight" alt="GitHub Stats"/>
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=s7erif&layout=compact&theme=tokyonight" alt="Top Languages"/>
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=s7erif&theme=tokyonight" alt="GitHub Streak"/>
-</p>
