@@ -1,98 +1,214 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
-
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="550" viewBox="0 0 900 550">
   <style>
-    .bg { fill: #0d1117; }
-    .card { fill: #161b22; stroke: #30363d; stroke-width: 1; }
-    .name { fill: #58a6ff; font-family: monospace; font-size: 20px; font-weight: bold; }
-    .role { fill: #8b949e; font-family: monospace; font-size: 12px; letter-spacing: 1px; }
-    .section { fill: #79c0ff; font-family: monospace; font-size: 12px; letter-spacing: 1px; }
-    .label { fill: #ffa657; font-family: monospace; font-size: 13px; }
-    .value { fill: #c9d1d9; font-family: monospace; font-size: 13px; }
-    .bar-bg { fill: #21262d; }
-    .bar-fill { fill: #2ea043; }
-    .footer { fill: #8b949e; font-family: monospace; font-size: 11px; }
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap');
+    
+    .bg { fill: #0a0a0f; }
+    .card { fill: #11111a; rx: 8; filter: drop-shadow(0 0 20px #00ff4140); }
+    .title { fill: #00ff41; font-family: 'JetBrains Mono', monospace; font-size: 16px; font-weight: 700; }
+    .key { fill: #ff6b6b; font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 400; }
+    .value { fill: #4ecdc4; font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 300; }
+    .comment { fill: #8b949e; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-style: italic; }
+    .ascii { fill: #00ff41; font-family: 'JetBrains Mono', monospace; font-size: 9px; }
+    .stat-label { fill: #c9d1d9; font-family: 'JetBrains Mono', monospace; font-size: 11px; }
+    .stat-value { fill: #00ff41; font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 700; }
+    .bar-bg { fill: #1e1e2e; rx: 3; }
+    .bar-fill { fill: #00ff41; rx: 3; }
+    .divider { stroke: #30363d; stroke-width: 1.5; stroke-dasharray: 5,3; }
+    .blink { animation: blink 1s infinite; }
+    .pulse { animation: pulse 2s infinite; }
+    .glow { filter: drop-shadow(0 0 8px #00ff41); }
+    .scan-line { animation: scan 3s linear infinite; }
+    .matrix-rain { font-family: 'JetBrains Mono', monospace; font-size: 14px; fill: #00ff41; opacity: 0.3; }
+    .float { animation: float 3s ease-in-out infinite; }
+    
+    @keyframes blink { 
+      0%, 50% { opacity: 1; } 
+      51%, 100% { opacity: 0; } 
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.7; }
+    }
+    @keyframes scan {
+      0% { transform: translateY(-20px); opacity: 0; }
+      10% { opacity: 1; }
+      90% { opacity: 1; }
+      100% { transform: translateY(550px); opacity: 0; }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    @keyframes rotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
   </style>
 
-  <!-- Background -->
-  <rect class="bg" width="900" height="520"/>
-
-  <!-- Main Card -->
-  <rect class="card" x="30" y="30" width="840" height="460" rx="12"/>
-
-  <!-- Header -->
-  <text x="60" y="70" class="name">Sherif Osman</text>
-  <text x="60" y="95" class="role">CYBERSECURITY • BLUE TEAM PATH • SOC & THREAT DETECTION</text>
-
-  <!-- Defensive Radar -->
-  <g transform="translate(680,130)">
-    <circle cx="0" cy="0" r="85" fill="none" stroke="#2ea043" stroke-opacity="0.25"/>
-    <circle cx="0" cy="0" r="55" fill="none" stroke="#2ea043" stroke-opacity="0.18"/>
-    <circle cx="0" cy="0" r="25" fill="none" stroke="#2ea043" stroke-opacity="0.12"/>
-
-    <line x1="0" y1="0" x2="85" y2="0" stroke="#2ea043" stroke-width="2">
-      <animateTransform attributeName="transform"
-        type="rotate"
-        from="0 0 0"
-        to="360 0 0"
-        dur="6s"
-        repeatCount="indefinite"/>
-    </line>
-
-    <circle cx="25" cy="-30" r="4" fill="#f85149">
-      <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- Profile Section -->
-  <text x="60" y="140" class="section">PROFILE</text>
-
-  <text x="60" y="165" class="label">Track:</text>
-  <text x="140" y="165" class="value">Blue Team / SOC Operations</text>
-
-  <text x="60" y="190" class="label">Focus:</text>
-  <text x="140" y="190" class="value">Threat Detection • Log Analysis • Incident Monitoring</text>
-
-  <text x="60" y="215" class="label">Mindset:</text>
-  <text x="140" y="215" class="value">Detect early. Respond fast. Improve continuously.</text>
-
-  <text x="60" y="240" class="label">Location:</text>
-  <text x="140" y="240" class="value">Egypt</text>
-
-  <!-- Tools -->
-  <text x="60" y="280" class="section">TOOLS & TECHNOLOGIES</text>
-  <text x="60" y="305" class="value">Wireshark • Nmap • Linux • Python • SIEM Concepts</text>
-
-  <!-- Skills -->
-  <text x="60" y="345" class="section">DEFENSIVE SKILLS (GROWING)</text>
-
-  <text x="60" y="370" class="label">Network Traffic Analysis</text>
-  <rect class="bar-bg" x="260" y="360" width="220" height="12" rx="6"/>
-  <rect class="bar-fill" x="260" y="360" width="170" height="12" rx="6">
-    <animate attributeName="width" from="0" to="170" dur="2s" fill="freeze"/>
-  </rect>
-
-  <text x="60" y="395" class="label">Log Analysis</text>
-  <rect class="bar-bg" x="260" y="385" width="220" height="12" rx="6"/>
-  <rect class="bar-fill" x="260" y="385" width="150" height="12" rx="6">
-    <animate attributeName="width" from="0" to="150" dur="2s" begin="0.3s" fill="freeze"/>
-  </rect>
-
-  <text x="60" y="420" class="label">Threat Detection Basics</text>
-  <rect class="bar-bg" x="260" y="410" width="220" height="12" rx="6"/>
-  <rect class="bar-fill" x="260" y="410" width="140" height="12" rx="6">
-    <animate attributeName="width" from="0" to="140" dur="2s" begin="0.6s" fill="freeze"/>
-  </rect>
-
-  <text x="60" y="445" class="label">Linux & Scripting</text>
-  <rect class="bar-bg" x="260" y="435" width="220" height="12" rx="6"/>
-  <rect class="bar-fill" x="260" y="435" width="180" height="12" rx="6">
-    <animate attributeName="width" from="0" to="180" dur="2s" begin="0.9s" fill="freeze"/>
-  </rect>
-
-  <!-- Footer -->
-  <line x1="30" y1="460" x2="870" y2="460" stroke="#30363d"/>
-  <text x="450" y="485" text-anchor="middle" class="footer">
-    github.com/s7erif • Blue Team Learner • SOC & Threat Detection Path
+  <!-- Animated Matrix-style background -->
+  <rect class="bg" width="900" height="550"/>
+  <text class="matrix-rain" x="50" y="50">01010011 01001111 01000011</text>
+  <text class="matrix-rain" x="200" y="120">01000001 01001110 01000001</text>
+  <text class="matrix-rain" x="350" y="250">01001100 01011001 01010011</text>
+  <text class="matrix-rain" x="500" y="180">01010100 00100000 01000001</text>
+  
+  <!-- Animated scan line -->
+  <line class="scan-line" x1="0" y1="0" x2="900" y2="0" stroke="#00ff41" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Glowing main card -->
+  <rect class="card" x="30" y="30" width="840" height="490" rx="12"/>
+  
+  <!-- Animated terminal header -->
+  <rect fill="#1a1a2e" x="30" y="30" width="840" height="40" rx="12"/>
+  <rect fill="#11111a" x="30" y="60" width="840" height="10"/>
+  <circle class="pulse" fill="#ff5f56" cx="55" cy="50" r="7"/>
+  <circle class="pulse" fill="#ffbd2e" cx="80" cy="50" r="7"/>
+  <circle class="pulse" fill="#27c93f" cx="105" cy="50" r="7"/>
+  <text fill="#00ff41" x="450" y="55" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="14" class="glow">
+    s7erif@SOC-Terminal:~$ ./profile.sh --security-mode
   </text>
 
+  <!-- Interactive ASCII Radar Animation -->
+  <g transform="translate(40, 80)">
+    <!-- Radar background -->
+    <circle cx="150" cy="150" r="120" fill="none" stroke="#00ff4150" stroke-width="2" stroke-dasharray="5,5"/>
+    <circle cx="150" cy="150" r="80" fill="none" stroke="#00ff4130" stroke-width="1" stroke-dasharray="3,3"/>
+    <circle cx="150" cy="150" r="40" fill="none" stroke="#00ff4120" stroke-width="1" stroke-dasharray="2,2"/>
+    
+    <!-- Scanning line -->
+    <line x1="150" y1="150" x2="270" y2="150" stroke="#00ff41" stroke-width="2" 
+          style="animation: rotate 4s linear infinite; transform-origin: 150px 150px"/>
+    
+    <!-- Detection points -->
+    <circle class="pulse" cx="190" cy="110" r="5" fill="#ff6b6b"/>
+    <circle class="pulse" cx="220" cy="180" r="5" fill="#ff6b6b"/>
+    <circle class="pulse" cx="100" cy="140" r="5" fill="#ff6b6b"/>
+    
+    <!-- Radar labels -->
+    <text class="ascii" x="150" y="280" text-anchor="middle">[ LIVE THREAT MONITOR ]</text>
+    <text class="ascii" x="150" y="295" text-anchor="middle" fill="#ff6b6b">● 3 ACTIVE ALERTS</text>
+  </g>
+
+  <!-- Divider with animated dots -->
+  <line class="divider" x1="380" y1="70" x2="380" y2="280"/>
+  <circle cx="380" cy="100" r="3" fill="#00ff41" class="pulse"/>
+  <circle cx="380" cy="150" r="3" fill="#00ff41" class="pulse"/>
+  <circle cx="380" cy="200" r="3" fill="#00ff41" class="pulse"/>
+  <circle cx="380" cy="250" r="3" fill="#00ff41" class="pulse"/>
+
+  <!-- Profile Info with animated typing effect -->
+  <g class="float">
+    <text class="title" x="420" y="90">SHERIF OSMAN</text>
+    <text class="comment" x="420" y="110">─────────────────────</text>
+  </g>
+
+  <text class="key" x="420" y="135">STATUS:</text>
+  <text class="value" x="490" y="135">[ ACTIVE ] Junior SOC Analyst</text>
+  <rect class="blink" fill="#00ff41" x="483" y="122" width="8" height="14"/>
+
+  <text class="key" x="420" y="160">LOCATION:</text>
+  <text class="value" x="505" y="160">Cairo, Egypt 🇪🇬</text>
+
+  <text class="key" x="420" y="185">EDUCATION:</text>
+  <text class="value" x="505" y="185">Assist University '28</text>
+
+  <text class="key" x="420" y="210">SPECIALIZATION:</text>
+  <text class="value" x="525" y="210">Security Operations</text>
+
+  <text class="comment" x="420" y="235">─────────────────────</text>
+
+  <text class="key" x="420" y="260">CURRENT OPS:</text>
+  <text class="value" x="515" y="260">Threat Hunting • Log Analysis</text>
+
+  <text class="key" x="420" y="285">TOOLS ONLINE:</text>
+  <text class="value" x="525" y="285">Wireshark • Nmap • Python</text>
+
+  <!-- Animated progress bars -->
+  <g transform="translate(40, 320)">
+    <text class="title" x="0" y="0">SKILL METRICS</text>
+    
+    <!-- Python with animated fill -->
+    <text class="stat-label" x="0" y="30">Python Security</text>
+    <rect class="bar-bg" x="120" y="20" width="250" height="15"/>
+    <rect class="bar-fill" x="120" y="20" width="0" height="15">
+      <animate attributeName="width" from="0" to="200" dur="2s" fill="freeze"/>
+    </rect>
+    <text class="stat-value" x="380" y="33">80%</text>
+    
+    <!-- Network Analysis -->
+    <text class="stat-label" x="0" y="60">Network Analysis</text>
+    <rect class="bar-bg" x="120" y="50" width="250" height="15"/>
+    <rect class="bar-fill" x="120" y="50" width="0" height="15">
+      <animate attributeName="width" from="0" to="175" dur="2s" begin="0.3s" fill="freeze"/>
+    </rect>
+    <text class="stat-value" x="380" y="63">70%</text>
+    
+    <!-- SOC Operations -->
+    <text class="stat-label" x="0" y="90">SOC Operations</text>
+    <rect class="bar-bg" x="120" y="80" width="250" height="15"/>
+    <rect class="bar-fill" x="120" y="80" width="0" height="15">
+      <animate attributeName="width" from="0" to="150" dur="2s" begin="0.6s" fill="freeze"/>
+    </rect>
+    <text class="stat-value" x="380" y="93">60%</text>
+    
+    <!-- Linux CLI -->
+    <text class="stat-label" x="0" y="120">Linux CLI</text>
+    <rect class="bar-bg" x="120" y="110" width="250" height="15"/>
+    <rect class="bar-fill" x="120" y="110" width="0" height="15">
+      <animate attributeName="width" from="0" to="225" dur="2s" begin="0.9s" fill="freeze"/>
+    </rect>
+    <text class="stat-value" x="380" y="123">90%</text>
+  </g>
+
+  <!-- Live Stats Section -->
+  <g transform="translate(420, 320)">
+    <text class="title" x="0" y="0">LIVE STATS</text>
+    
+    <!-- Stats grid -->
+    <g class="float">
+      <rect fill="#1a1a2e" x="0" y="20" width="200" height="50" rx="5"/>
+      <text class="stat-label" x="100" y="45" text-anchor="middle">ALERTS TRIAGED</text>
+      <text class="stat-value" x="100" y="70" text-anchor="middle">147+</text>
+    </g>
+    
+    <g class="float">
+      <rect fill="#1a1a2e" x="220" y="20" width="200" height="50" rx="5"/>
+      <text class="stat-label" x="320" y="45" text-anchor="middle">PROJECTS</text>
+      <text class="stat-value" x="320" y="70" text-anchor="middle">8+</text>
+    </g>
+    
+    <g class="float">
+      <rect fill="#1a1a2e" x="0" y="90" width="200" height="50" rx="5"/>
+      <text class="stat-label" x="100" y="115" text-anchor="middle">CERTIFICATIONS</text>
+      <text class="stat-value" x="100" y="140" text-anchor="middle">6+</text>
+    </g>
+    
+    <g class="float">
+      <rect fill="#1a1a2e" x="220" y="90" width="200" height="50" rx="5"/>
+      <text class="stat-label" x="320" y="115" text-anchor="middle">CODE LINES</text>
+      <text class="stat-value" x="320" y="140" text-anchor="middle">10K+</text>
+    </g>
+  </g>
+
+  <!-- Animated command line at bottom -->
+  <g transform="translate(40, 460)">
+    <rect fill="#000" x="0" y="0" width="820" height="40" rx="5"/>
+    <text fill="#00ff41" x="10" y="25" font-family="'JetBrains Mono', monospace" font-size="12">
+      <tspan>root@soc-terminal:~$ </tspan>
+      <tspan class="blink">█</tspan>
+    </text>
+    
+    <!-- Scrolling text effect -->
+    <text fill="#8b949e" x="10" y="55" font-family="'JetBrains Mono', monospace" font-size="11">
+      [>] Monitoring network traffic... [✓] | [>] Analyzing security logs... [✓] | [>] Scanning for threats... [●]
+    </text>
+  </g>
+
+  <!-- Animated footer -->
+  <g transform="translate(0, 520)">
+    <line x1="0" y1="0" x2="900" y2="0" stroke="#00ff41" stroke-width="1" stroke-dasharray="10,5"/>
+    <text class="comment" x="450" y="20" text-anchor="middle" font-size="12">
+      github.com/s7erif | linkedin.com/in/sherif-osman | [CONNECTED: SECURE CHANNEL]
+    </text>
+  </g>
 </svg>
