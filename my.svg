@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+
+  <style>
+    .bg { fill: #0d1117; }
+    .card { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+    .name { fill: #58a6ff; font-family: monospace; font-size: 20px; font-weight: bold; }
+    .role { fill: #8b949e; font-family: monospace; font-size: 12px; letter-spacing: 1px; }
+    .section { fill: #79c0ff; font-family: monospace; font-size: 12px; letter-spacing: 1px; }
+    .label { fill: #ffa657; font-family: monospace; font-size: 13px; }
+    .value { fill: #c9d1d9; font-family: monospace; font-size: 13px; }
+    .bar-bg { fill: #21262d; }
+    .bar-fill { fill: #2ea043; }
+    .footer { fill: #8b949e; font-family: monospace; font-size: 11px; }
+  </style>
+
+  <!-- Background -->
+  <rect class="bg" width="900" height="520"/>
+
+  <!-- Main Card -->
+  <rect class="card" x="30" y="30" width="840" height="460" rx="12"/>
+
+  <!-- Header -->
+  <text x="60" y="70" class="name">Sherif Osman</text>
+  <text x="60" y="95" class="role">CYBERSECURITY • BLUE TEAM PATH • SOC & THREAT DETECTION</text>
+
+  <!-- Defensive Radar -->
+  <g transform="translate(680,130)">
+    <circle cx="0" cy="0" r="85" fill="none" stroke="#2ea043" stroke-opacity="0.25"/>
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#2ea043" stroke-opacity="0.18"/>
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#2ea043" stroke-opacity="0.12"/>
+
+    <line x1="0" y1="0" x2="85" y2="0" stroke="#2ea043" stroke-width="2">
+      <animateTransform attributeName="transform"
+        type="rotate"
+        from="0 0 0"
+        to="360 0 0"
+        dur="6s"
+        repeatCount="indefinite"/>
+    </line>
+
+    <circle cx="25" cy="-30" r="4" fill="#f85149">
+      <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Profile Section -->
+  <text x="60" y="140" class="section">PROFILE</text>
+
+  <text x="60" y="165" class="label">Track:</text>
+  <text x="140" y="165" class="value">Blue Team / SOC Operations</text>
+
+  <text x="60" y="190" class="label">Focus:</text>
+  <text x="140" y="190" class="value">Threat Detection • Log Analysis • Incident Monitoring</text>
+
+  <text x="60" y="215" class="label">Mindset:</text>
+  <text x="140" y="215" class="value">Detect early. Respond fast. Improve continuously.</text>
+
+  <text x="60" y="240" class="label">Location:</text>
+  <text x="140" y="240" class="value">Egypt</text>
+
+  <!-- Tools -->
+  <text x="60" y="280" class="section">TOOLS & TECHNOLOGIES</text>
+  <text x="60" y="305" class="value">Wireshark • Nmap • Linux • Python • SIEM Concepts</text>
+
+  <!-- Skills -->
+  <text x="60" y="345" class="section">DEFENSIVE SKILLS (GROWING)</text>
+
+  <text x="60" y="370" class="label">Network Traffic Analysis</text>
+  <rect class="bar-bg" x="260" y="360" width="220" height="12" rx="6"/>
+  <rect class="bar-fill" x="260" y="360" width="170" height="12" rx="6">
+    <animate attributeName="width" from="0" to="170" dur="2s" fill="freeze"/>
+  </rect>
+
+  <text x="60" y="395" class="label">Log Analysis</text>
+  <rect class="bar-bg" x="260" y="385" width="220" height="12" rx="6"/>
+  <rect class="bar-fill" x="260" y="385" width="150" height="12" rx="6">
+    <animate attributeName="width" from="0" to="150" dur="2s" begin="0.3s" fill="freeze"/>
+  </rect>
+
+  <text x="60" y="420" class="label">Threat Detection Basics</text>
+  <rect class="bar-bg" x="260" y="410" width="220" height="12" rx="6"/>
+  <rect class="bar-fill" x="260" y="410" width="140" height="12" rx="6">
+    <animate attributeName="width" from="0" to="140" dur="2s" begin="0.6s" fill="freeze"/>
+  </rect>
+
+  <text x="60" y="445" class="label">Linux & Scripting</text>
+  <rect class="bar-bg" x="260" y="435" width="220" height="12" rx="6"/>
+  <rect class="bar-fill" x="260" y="435" width="180" height="12" rx="6">
+    <animate attributeName="width" from="0" to="180" dur="2s" begin="0.9s" fill="freeze"/>
+  </rect>
+
+  <!-- Footer -->
+  <line x1="30" y1="460" x2="870" y2="460" stroke="#30363d"/>
+  <text x="450" y="485" text-anchor="middle" class="footer">
+    github.com/s7erif • Blue Team Learner • SOC & Threat Detection Path
+  </text>
+
+</svg>
